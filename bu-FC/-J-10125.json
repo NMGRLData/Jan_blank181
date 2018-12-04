@@ -1,0 +1,243 @@
+{
+    "acquisition_software": "pychron py3/18.2",
+    "aliquot": 10125,
+    "analysis_type": "blank_unknown",
+    "analyst_name": "",
+    "collection_version": "1.0:2.0",
+    "comment": "",
+    "commit": "57c5de3c29051f09f2f79e727255b14a15a83d06",
+    "conditionals": [
+        {
+            "analysis_types": null,
+            "frequency": 5,
+            "hash_id": -117291263986942074,
+            "level": 10,
+            "location": "setupfiles/spectrometer/default_conditionals.yaml",
+            "ntrips": 3,
+            "start_count": 0,
+            "teststr": "H1.bs<-5.0"
+        },
+        {
+            "analysis_types": null,
+            "frequency": 5,
+            "hash_id": -6259129728816236801,
+            "level": 10,
+            "location": "setupfiles/spectrometer/default_conditionals.yaml",
+            "ntrips": 3,
+            "start_count": 75,
+            "teststr": "Ar36.bs_corrected<-0.005"
+        },
+        {
+            "analysis_types": null,
+            "frequency": 3,
+            "hash_id": -4612223158137016788,
+            "level": 10,
+            "location": "setupfiles/spectrometer/default_conditionals.yaml",
+            "ntrips": 3,
+            "start_count": 0,
+            "teststr": "Ar40.bs_corrected>5000.0"
+        }
+    ],
+    "data_reduction_software": "pychron py3/18.2",
+    "detectors": {
+        "AX": {
+            "deflection": 190.0,
+            "gain": 1
+        },
+        "CDD": {
+            "deflection": 50.0,
+            "gain": 1
+        },
+        "H1": {
+            "deflection": 0.0,
+            "gain": 1
+        },
+        "H2": {
+            "deflection": 0.0,
+            "gain": 1
+        },
+        "L1": {
+            "deflection": 400.0,
+            "gain": 1
+        },
+        "L2": {
+            "deflection": 825.0,
+            "gain": 1
+        }
+    },
+    "environmental": {
+        "lab_humiditys": [
+            {
+                "device": "EnvironmentalMonitor",
+                "name": "Lab Hum.",
+                "pub_date": "2018-12-02T14:04:49",
+                "title": "iServer Hum.",
+                "value": 21.6
+            },
+            {
+                "device": "RPiWeather",
+                "name": "Lab Hum. 2",
+                "pub_date": "2018-12-02T19:02:03",
+                "title": "Base Station Hum.",
+                "value": 22.253303527832
+            },
+            {
+                "device": "NOAA",
+                "name": "Outside Humidity",
+                "pub_date": "2018-12-02T19:02:16",
+                "title": "",
+                "value": 50.0
+            }
+        ],
+        "lab_pneumatics": [
+            {
+                "device": "AirPressure",
+                "name": "Pressure",
+                "pub_date": "2018-12-02T18:58:44",
+                "title": "Building",
+                "value": 101.0
+            },
+            {
+                "device": "AirPressure2",
+                "name": "Pressure2",
+                "pub_date": "2018-12-02T18:58:44",
+                "title": "Lab",
+                "value": 87.2
+            },
+            {
+                "device": "RPiWeather",
+                "name": "Lab Pressure",
+                "pub_date": "2018-12-02T19:00:24",
+                "title": null,
+                "value": 860.975341796875
+            }
+        ],
+        "lab_temperatures": [
+            {
+                "device": "EnvironmentalMonitor",
+                "name": "Lab Temp.",
+                "pub_date": "2018-12-02T18:58:36",
+                "title": "iServer Temp.",
+                "value": 71.6
+            },
+            {
+                "device": "Chiller",
+                "name": "Coolant Temp.",
+                "pub_date": "2018-12-02T18:48:43",
+                "title": "Coolant",
+                "value": 16.0
+            },
+            {
+                "device": "RPiWeather",
+                "name": "Lab Temp. 2",
+                "pub_date": "2018-12-02T19:02:09",
+                "title": "Base Station Temp.",
+                "value": 81.745036315918
+            },
+            {
+                "device": "RPiWeather",
+                "name": "Lab Temp. 3",
+                "pub_date": "2018-12-02T18:53:46",
+                "title": "EastDiffuser01",
+                "value": 56.075
+            },
+            {
+                "device": "RPiWeather",
+                "name": "Lab Temp. 4",
+                "pub_date": "2018-12-02T18:59:41",
+                "title": "EastReturn02",
+                "value": 69.125
+            },
+            {
+                "device": "RPiWeather",
+                "name": "Lab Temp. 5",
+                "pub_date": "2018-12-02T18:56:39",
+                "title": "iServerCalibration03",
+                "value": 71.15
+            },
+            {
+                "device": "RPiWeather",
+                "name": "Lab Temp. 6",
+                "pub_date": "2018-12-02T18:41:08",
+                "title": "SouthWall04",
+                "value": 67.55
+            },
+            {
+                "device": "RPiWeather",
+                "name": "Lab Temp. 7",
+                "pub_date": "2018-12-02T18:52:19",
+                "title": "SouthWindow05",
+                "value": 62.9366
+            },
+            {
+                "device": "NOAA",
+                "name": "Outside Temp",
+                "pub_date": "2018-12-02T19:02:16",
+                "title": "Outside Temp.",
+                "value": 43.0
+            }
+        ]
+    },
+    "experiment_queue_name": "LoadC0020",
+    "extraction": "jan_co2.py",
+    "identifier": "bu-FC-J",
+    "increment": null,
+    "instrument_name": "",
+    "intensity_scalar": 0.0,
+    "irradiation": "NoIrradiation",
+    "irradiation_level": "A",
+    "irradiation_position": 3,
+    "isotopes": {
+        "Ar36": {
+            "detector": "CDD",
+            "name": "Ar36",
+            "serial_id": "00000"
+        },
+        "Ar37": {
+            "detector": "L2",
+            "name": "Ar37",
+            "serial_id": "00000"
+        },
+        "Ar38": {
+            "detector": "L1",
+            "name": "Ar38",
+            "serial_id": "00000"
+        },
+        "Ar39": {
+            "detector": "AX",
+            "name": "Ar39",
+            "serial_id": "00000"
+        },
+        "Ar40": {
+            "detector": "H1",
+            "name": "Ar40",
+            "serial_id": "00000"
+        },
+        "Ar41": {
+            "detector": "H2",
+            "name": "Ar41",
+            "serial_id": "00000"
+        }
+    },
+    "laboratory": "",
+    "mass_spectrometer": "jan",
+    "material": "Blank",
+    "measurement": "jan_unknown280_45_no_center.py",
+    "post_equilibration": "jan_pump_extraction_line.py",
+    "post_measurement": "jan_pump_ms.py",
+    "principal_investigator": "NMGRL",
+    "project": "REFERENCES",
+    "queue_conditionals_name": "",
+    "repository_identifier": "Jan_blank181",
+    "sample": "blank_unknown",
+    "source": {
+        "emission": 539.155,
+        "trap": 198.595
+    },
+    "spec_sha": "0200fe868dc7a818a060e8982ba90fe71212a126",
+    "timestamp": "2018-12-02T19:02:24.505692",
+    "tripped_conditional": null,
+    "username": "",
+    "uuid": "f9652001-a59c-440c-be51-384548ec11b4",
+    "whiff_result": null
+}
